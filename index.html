@@ -4,7 +4,11 @@
     <!-- Required meta tags & Css BootStrap-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
     <link rel="icon" type="image/png" href="icons/github.svg" />
@@ -39,9 +43,10 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/profile.jpg" alt="Taufik Hidayat" width="250" class="rounded-circle img-thumbnail mt-5" />
+      <img src="img/profile.jpg" alt="Taufik Hidayat" width="250" class="rounded-circle img-thumbnail mt-5" data-aos="zoom-out" data-aos-duration="1500" />
       <h1 class="display-4">Taufik Hidayat</h1>
-      <p class="lead">College | Grhapic Designer | Gamer</p>
+      <p class="lead"></p>
+      <!-- Tittle Text-->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -56,12 +61,16 @@
       <div class="container pt-5">
         <div class="row">
           <div class="col-sm text-center mb-3">
-            <h2>About Me</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4 mb-3">Hai perkenalkan nama aku Taufik Hidayat biasa dipanggil taufik, sekarang aku berusia 19 tahun dan aku adalah mahasiswa semester 2 di Politeknik Negeri Banyuwangi</div>
-          <div class="col-md-4 mb-3">Quote "Mempunyai satu sahabat sejati lebih berharga dari pada seribu teman yang mementingkan diri sendiri" (Nobita). Yuk guys tulis nama kalian dibawah yaa</div>
+          <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            <p>Hai perkenalkan nama aku Taufik Hidayat biasa dipanggil taufik, sekarang aku berusia 19 tahun dan aku adalah mahasiswa semester 2 di Politeknik Negeri Banyuwangi</p>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <p>Quote "Mempunyai satu sahabat sejati lebih berharga dari pada seribu teman yang mementingkan diri sendiri" (Nobita). Yuk guys tulis nama kalian dibawah yaa</p>
+          </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -78,12 +87,12 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col-sm">
-            <h2>My Gallery</h2>
+            <h2 data-aos="zoom-out" data-aos-duration="1000">My Gallery</h2>
           </div>
         </div>
         <div class="row pb-5">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
               <img src="img/beach.jpg" class="card-img-top" alt="Pantai Wedi Ireng" />
               <div class="card-body">
                 <p class="card-text text-center">Liburan musim panas di pantai Wedi Ireng bersama sahabat "Trio Ngenes"</p>
@@ -91,7 +100,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
               <img src="img/mosque.jpg" class="card-img-top" alt="Masjid Indonesia Tokyo" />
               <div class="card-body">
                 <p class="card-text text-center">Mengunjungi masjid Indonesia - Tokyo di musim dingin memang seru banget</p>
@@ -99,7 +108,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
               <img src="img/japan.jpg" class="card-img-top" alt="Sensoji Temple" />
               <div class="card-body">
                 <p class="card-text text-center">Mempelajari sejarah kuil Sensoji di Asakusa - Jepang "Jenesys 2019"</p>
@@ -108,16 +117,16 @@
           </div>
         </div>
         <div class="row justify-content-evenly pb-3">
-          <div class="col-md-4 mb-3">
-            <div class="card">
+          <div class="col-md-5 mb-3">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
               <img src="img/hiroshima.jpg" class="card-img-top" alt="Museum Hiroshima" />
               <div class="card-body">
                 <p class="card-text text-center">Belajar mengenai sejarah Hirhosima di Museum Genbaku - Hiroshima</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
+          <div class="col-md-5 mb-3">
+            <div class="card" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
               <img src="img/museum.jpg" class="card-img-top" alt="Museum Edo Tokyo" />
               <div class="card-body">
                 <p class="card-text text-center">Kunjungan ke museum dan melihat kebiasaan dan adat istiadat masyarakat Jepang terdahulu</p>
@@ -140,12 +149,12 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col-sm">
-            <h2>Contact</h2>
+            <h2 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">Contact</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form name="taufik-hidayat-contact-form">
+            <form name="taufik-hidayat-contact-form" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="300">
               <div class="mb-3">
                 <label for="nama" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="nama" aria-describedby="nama" name="nama" />
@@ -182,8 +191,27 @@
 
     <!-- Footer -->
     <footer class="bg-danger text-white text-center pb-5">
-      <p class="fs-5">Created with <i class="bi bi-heart-fill text-white"></i> by <a href="https://www.instagram.com/akuutauf_/" class="text-white fw-bold">Taufik Hidayat</a></p>
+      <p class="fs-5 pb-5 pt-3" data-aos="flip-up" data-aos-duration="1500">Created with <i class="bi bi-heart-fill text-white"></i> by <a href="https://www.instagram.com/akuutauf_/" class="text-white fw-bold">Taufik Hidayat</a></p>
     </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true, // untuk melakukan animasi hanya satu kali
+      });
+    </script>
+
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "sine" });
+      gsap.from(".display-4", { duration: 1.5, x: -100, delay: 1, opacity: 0, ease: "back" });
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "College | Grhapic Designer | Gamer" });
+    </script>
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
